@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+    
+
+      <div class="header">
+        <h1>Weather Cities Project</h1>
+      </div>
+      <div class="searchContaier">
+        <input
+          class="searchField"
+          type="search"
+          size="60"
+          placeholder=" Search for a city or airport"
+          id="search"
+        />
+        <button class="searchBtn" onclick="fetchData()">Add City</button>
+      </div>
+
+      <div id="cardsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
